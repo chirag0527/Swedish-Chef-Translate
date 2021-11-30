@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+
+body{
+    background-color: rgb(0, 0, 0);
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat' , sans-serif;
+    user-select: none;
+    
+}
+
+
+.container{
+    height: 95vh;
+    width: 95vw;
+    margin-top: 2.5vh;
+    margin-left: 2vw ;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #ffe6ac;
+    opacity: 1;
+    padding: 0;
+    /* margin: 0px auto; */
+    background-color: #a2dbe9fb;
+    background-size: 53px 53px;
+    background-image: radial-gradient(
+        transparent 28px,
+        #ffffff 28px,
+        #ffffff 32px,
+        transparent 32px
+    ); 
+
+}
+
+.flexy{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60vh;
+
+}
+
+h1{
+    text-align: center;
+    margin-top: 2vh;
+    font-family: 'Oswald', sans-serif;
+    font-size: 60px;
+}
+
+
+
+#input{
+    width: 40vw;
+    height: 60vh;
+    margin-top: 10vh;
+    text-align: center;
+    background-color: rgb(230, 220, 220);
+    color:black;
+    font-size: 35px;
+}
+
+#btn{
+    font-size: 15px;
+    width: 10vw;
+    background-color: white;
+    border: 3px solid white;
+    border-radius: 15px;
+    outline: black solid 2px;
+    height: 6vh;
+    cursor: pointer;
+    font-weight: bold;
+    transition: ease-in all 0.3s;
+}
+
+
+.output{
+    height: 60vh;
+    width: 40vw;
+    margin-top: 10vh;
+    border: 1px solid black ;
+    border-radius: 5px ;
+    background-color: rgb(230, 220, 220);
+    text-align: center;
+    color:black;
+    font-size: 35px;
+}
+
+
+
